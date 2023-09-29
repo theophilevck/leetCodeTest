@@ -6,6 +6,8 @@ import java.util.HashMap;
 public class LongestStringChain {
 
     //1048. Longest String Chain
+
+    //Medium
     //You are given an array of words where each word consists of lowercase English letters.
     //
     //wordA is a predecessor of wordB if and only if we can insert exactly one letter anywhere in wordA
@@ -18,6 +20,12 @@ public class LongestStringChain {
     //
     //Return the length of the longest possible word chain with words chosen from the given list of words.
 
+    //Related Topics
+    //Array
+    //Hash Table
+    //Two Pointers
+    //String
+    //Dynamic Programming
 
     public int longestStrChain(String[] arr) {
         Arrays.sort(arr, (a, b) -> a.length() - b.length());

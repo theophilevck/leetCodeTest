@@ -3,8 +3,14 @@ package arrays;
 public class IncreasingTripletSubsequence {
 
     //334. Increasing Triplet Subsequence
+    //Medium
+    //Given an integer array nums, return true if there exists
+    // a triple of indices (i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k].
+    // If no such indices exists, return false.
 
-    //Given an integer array nums, return true if there exists a triple of indices (i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k]. If no such indices exists, return false.
+    //Related Topics
+    //Array
+    //Greedy
 
 
     public boolean increasingTriplet(int[] nums) {

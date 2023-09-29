@@ -8,6 +8,8 @@ public class ChampagneTower {
 
     //799. Champagne Tower
 
+    //Medium
+
     //We stack glasses in a pyramid, where the first row has 1 glass, the second row has 2 glasses,
     // and so on until the 100th row.  Each glass holds one cup of champagne.
     //
@@ -19,6 +21,9 @@ public class ChampagneTower {
     // After three cups of champagne are poured, those two cups become full - there are 3 full glasses total now.
     // After four cups of champagne are poured, the third row has the middle glass half full, and the two outside glasses are a quarter full, as pictured below.
 
+
+    //Related Topics
+    //Dynamic Programming
 
     public double champagneTower(int poured, int query_row, int query_glass) {
         if (poured == 0) {

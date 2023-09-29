@@ -7,9 +7,17 @@ import java.util.Stack;
 public class RemoveDuplicateLetters {
 
     //316. Remove Duplicate Letters
+
+    //Medium
     //Given a string s, remove duplicate letters so that every letter appears once and only once. You must make sure your result is
     //the smallest in lexicographical order
     //among all possible results.
+
+    //Related Topics
+    //String
+    //Stack
+    //Greedy
+    //Monotonic Stack
 
     public static String removeDuplicateLetters(String s) {
 

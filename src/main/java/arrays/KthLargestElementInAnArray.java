@@ -6,12 +6,19 @@ public class KthLargestElementInAnArray {
 
 
     //215. Kth Largest Element in an Array
-
+    //Medium
     //Given an integer array nums and an integer k, return the kth largest element in the array.
     //
     //Note that it is the kth largest element in the sorted order, not the kth distinct element.
     //
     //Can you solve it without sorting?
+
+    //Related Topics
+    //Array
+    //Divide and Conquer
+    //Sorting
+    //Heap (Priority Queue)
+    //Quickselect
 
     public static int findKthLargest(int[] nums, int k) {
 
@@ -29,9 +36,9 @@ public class KthLargestElementInAnArray {
     }
 
     public static void main(String[] args) {
-        int[] input = {3,2,1,5,6,4};
-        int k =4;
-        System.out.println(findKthLargest(input,k));
+        int[] input = {3, 2, 1, 5, 6, 4};
+        int k = 4;
+        System.out.println(findKthLargest(input, k));
     }
 
 }

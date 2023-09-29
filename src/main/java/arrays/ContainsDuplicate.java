@@ -5,9 +5,16 @@ import java.util.Set;
 
 public class ContainsDuplicate {
 
-//    217. Contains Duplicate
-//    Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+    //    217. Contains Duplicate
+    //    Easy
+    //    Given an integer array nums, return true if any value appears at least twice in the array,
+    //    and return false if every element is distinct.
 
+
+    //Related Topics
+    //Array
+    //Hash Table
+    //Sorting
     public static boolean containsDuplicate(int[] nums) {
         Set<Integer> s = new HashSet<>();
         for (int num : nums) {

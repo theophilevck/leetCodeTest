@@ -3,11 +3,19 @@ package arrays;
 public class MinimumOperationsToReduceXtoZero {
 
     //1658. Minimum Operations to Reduce X to Zero
+    //Medium
     //You are given an integer array nums and an integer x.
     // In one operation, you can either remove the leftmost or the rightmost element from the array nums and subtract its value from x.
     // Note that this modifies the array for future operations.
     //
     //Return the minimum number of operations to reduce x to exactly 0 if it is possible, otherwise, return -1.
+
+    //Related Topics
+    //Array
+    //Hash Table
+    //Binary Search
+    //Sliding Window
+    //Prefix Sum
 
     public static int minOperations(int[] nums, int x) {
         int current = 0;

@@ -7,9 +7,15 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
 
     //3. Longest Substring Without Repeating Characters
+    //Medium
     //Given a string s, find the length of the longest
     //substring
     //without repeating characters.
+
+    //Related Topics
+    //Hash Table
+    //String
+    //Sliding Window
 
 
     //First

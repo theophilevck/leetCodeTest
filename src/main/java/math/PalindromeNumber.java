@@ -4,8 +4,9 @@ import java.util.ArrayList;
 
 public class PalindromeNumber {
 
-//    9. Palindrome Number
-//    Given an integer x, return true if x is a palindrome, and false otherwise.
+    //9. Palindrome Number
+    //Easy
+    //Given an integer x, return true if x is a palindrome, and false otherwise.
 
     public static boolean isPalindrome(int x) {
 
