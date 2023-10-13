@@ -27,7 +27,7 @@ public class LongestSubstringWithoutRepeatingCharacters {
         for (int i = 0; i < s.length(); i++) {
             String substring = String.valueOf(s.charAt(i));
             for (int j = i + 1; j < s.length(); j++) {
-                System.out.println(s.charAt(j));
+                //System.out.println(s.charAt(j));
                 if (!substring.contains(String.valueOf(s.charAt(j)))) {
                     substring = substring + s.charAt(j);
                     maxLen = Math.max(maxLen, substring.length());
