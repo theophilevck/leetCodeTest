@@ -15,7 +15,6 @@ public class MinCostClimbingStairs {
     //Array
     //Dynamic Programming
 
-
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
         int[] dp = new int[n];
